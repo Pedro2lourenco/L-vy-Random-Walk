@@ -20,9 +20,9 @@ intercept = modelo.intercept_
 print("Coeficiente de difusão:", slope/4)
 print("Intercepto:", intercept)
 
-if slope <= 0:
+if slope/4 <= 0:
     print('Subdifusivo')
-elif (slope - 1) > 1e-4:
+elif (slope/4 - 1) > 1e-4:
     print('Difusivo simples')
 else:
     print('Superdifusivo')
