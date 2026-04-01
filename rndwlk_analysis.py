@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
-data = np.loadtxt(r'C:\Users\Pedro\Documents\rndwlk\Traj_rdnwlk.dat')
+data = np.loadtxt(r'Traj_rdnwlk.dat')
 
 X = data[:,0]
 Y = data[:,1]
