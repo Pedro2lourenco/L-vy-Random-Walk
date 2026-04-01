@@ -22,7 +22,7 @@ A particle moves in a 2D plane confined within a circle of radius 2. The step di
 The R script generates the walk and produces a plot and a data file.
 
 **Key features:**
-- Generates step lengths using the inverse transform method: $dx = d * (U{-1/a}) * cos(θ)$, $dy = d * (U^{-1/a}) * sin(θ)$, where `U ~ Uniform(0,1)`, `θ ~ Uniform(0,2π)`.
+- Generates step lengths using the inverse transform method: $dx = d * (U^{-1/a}) * cos(θ)$, $dy = d * (U^{-1/a}) * sin(θ)$, where `U ~ Uniform(0,1)`, `θ ~ Uniform(0,2π)`.
 - Implements a reflective‑like boundary condition: steps that would go outside the circle of radius 2 are ignored.
 - Outputs:
   - `Traj_levy.dat`: tab‑separated file with `X` and `Y` coordinates of each step.
