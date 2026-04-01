@@ -17,7 +17,7 @@ A particle moves in a 2D plane confined within a circle of radius 2. The step di
 
 ## 🔧 Code Structure
 
-### 1. Simulation (R) – `levy_simulation.R`
+### 1. Simulation (R) – `rndwlk.R`
 
 The R script generates the walk and produces a plot and a data file.
 
@@ -33,7 +33,7 @@ The R script generates the walk and produces a plot and a data file.
 - Red dashed circle for the boundary.
 - Proper axes and aspect ratio.
 
-### 2. Analysis (Python) – `levy_analysis.py`
+### 2. Analysis (Python) – `rdnwlk_analysis.py`
 
 The Python script loads the generated trajectory, computes the mean‑square displacement (MSD), and fits a linear model to determine the diffusion regime.
 
